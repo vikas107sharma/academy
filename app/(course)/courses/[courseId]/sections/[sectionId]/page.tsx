@@ -1,4 +1,5 @@
 import SectionsDetails from "@/components/sections/SectionsDetails";
+import { getCourse } from "@/components/utils/queries";
 import { db } from "@/lib/db";
 import { auth } from "@clerk/nextjs/server";
 import { Resource } from "@prisma/client";
@@ -15,20 +16,7 @@ const SectionDetailsPage = async ({
   if (!userId) {
     return redirect("/sign-in");
   }
-
-  const course = await db.course.findUnique({
-    where: {
-      id: courseId,
-      isPublished: true,
-    },
-    include: {
-      sections: {
-        where: {
-          isPublished: true,
-        },
-      },
-    },
-  });
+  const course = await getCourse(courseId);
 
   if (!course) {
     return redirect("/");

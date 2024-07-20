@@ -1,32 +1,26 @@
-import { db } from "@/lib/db";
-import getCoursesByCategory from "../actions/getCourses";
-import Categories from "@/components/custom/Categories";
-import CourseCard from "@/components/courses/CourseCard";
+import React, { Suspense, lazy } from 'react';
+import { getCategories } from '@/components/utils/queries';
+import getCoursesByCategory from '../actions/getCourses';
+
+const Categories = lazy(() => import('@/components/custom/Categories'));
+const CourseCard = lazy(() => import('@/components/courses/CourseCard'));
 
 export default async function Home() {
-  const categories = await db.category.findMany({
-    orderBy: {
-      name: "asc",
-    },
-    include: {
-      subCategories: {
-        orderBy: {
-          name: "asc",
-        },
-      },
-    },
-  });
-
+  const categories = await getCategories();
   const courses = await getCoursesByCategory(null);
+
   return (
     <div className="md:mt-5 md:px-10 xl:px-16 pb-16">
-      <Categories categories={categories} selectedCategory={null} />
+      <Suspense fallback={<div>Loading Categories...</div>}>
+        <Categories categories={categories} selectedCategory={null} />
+      </Suspense>
       <div className="flex flex-wrap gap-7 justify-center">
-        {courses.map((course) => (
-          <CourseCard key={course.id} course={course} />
-        ))}
+        <Suspense fallback={<div>Loading Courses...</div>}>
+          {courses.map((course) => (
+            <CourseCard key={course.id} course={course} />
+          ))}
+        </Suspense>
       </div>
-      
     </div>
   );
 }
