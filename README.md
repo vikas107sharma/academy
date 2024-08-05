@@ -1,6 +1,6 @@
-# [Academy Site](https://academy-sable.vercel.app/)
+## [Academy Site](https://academy-sable.vercel.app/)
 
-## Table of Contents
+### Table of Contents
 - [Home Page](#home-page)
 - [Course Page](#course-page)
 - [Payment Gateway using Stripe](#payment-gateway-using-stripe)
@@ -11,32 +11,32 @@
   - [Reorder Sections](#reorder-sections)
 - [Dashboard](#dashboard)
 
-## Home Page
-### Users can buy and study courses or become instructors
-### Users can filter courses based on category
+### Home Page
+#### Users can buy and study courses or become instructors
+#### Users can filter courses based on category
 ![Home Page](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.001.png)
 
-## Course Page
-### Users can buy courses to access them
+### Course Page
+#### Users can buy courses to access them
 ![Course Page](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.002.png)
 
-## Payment Gateway using Stripe
-### Use card number: 4000003560000008
+### Payment Gateway using Stripe
+#### Use card number: 4000003560000008
 ![Payment Gateway](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.004.png)
 ![Payment Details](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.005.png)
 
-## After Purchase
-### The course is accessible after purchase
-### Mux player to play the video
+### After Purchase
+#### The course is accessible after purchase
+#### Mux player to play the video
 ![Mux Player](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.006.png)
 
-## Instructor Features
-### Instructors can create new courses and edit existing ones
-### Courses can be sorted based on title or price
+### Instructor Features
+#### Instructors can create new courses and edit existing ones
+#### Courses can be sorted based on title or price
 ![Instructor Dashboard](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.007.png)
 
-### Instructors can publish, unpublish, or delete courses
-### A rich text editor is used for descriptions
+#### Instructors can publish, unpublish, or delete courses
+#### A rich text editor is used for descriptions
 ![Course Editor](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.008.png)
 
 ### Sections
@@ -52,6 +52,6 @@
 #### Instructors can create multiple sections and drag to change the order
 ![Reorder Sections](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.012.png)
 
-## Dashboard
-### Dashboard to check total revenue for each course
+### Dashboard
+#### Dashboard to check total revenue for each course
 ![Revenue Dashboard](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.013.png)
