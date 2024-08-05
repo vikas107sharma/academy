@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [Academy Site](https://academy-sable.vercel.app/)
 
-## Getting Started
+## Table of Contents
+- [Home Page](#home-page)
+- [Course Page](#course-page)
+- [Payment Gateway using Stripe](#payment-gateway-using-stripe)
+- [After Purchase](#after-purchase)
+- [Instructor Features](#instructor-features)
+  - [Sections](#sections)
+  - [Resources](#resources)
+  - [Reorder Sections](#reorder-sections)
+- [Dashboard](#dashboard)
 
-First, run the development server:
+## Home Page
+### Users can buy and study courses or become instructors
+### Users can filter courses based on category
+![Home Page](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.001.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Course Page
+### Users can buy courses to access them
+![Course Page](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.002.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Payment Gateway using Stripe
+### Use card number: 4000003560000008
+![Payment Gateway](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.004.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## After Purchase
+### The course is accessible after purchase
+### Mux player to play the video
+![Mux Player](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.006.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Instructor Features
+### Instructors can create new courses and edit existing ones
+### Courses can be sorted based on title or price
+![Instructor Dashboard](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.007.png)
 
-## Learn More
+### Instructors can publish, unpublish, or delete courses
+### A rich text editor is used for descriptions
+![Course Editor](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.008.png)
 
-To learn more about Next.js, take a look at the following resources:
+### Sections
+#### Each course can have multiple sections
+#### Instructors can publish, unpublish, or delete sections
+![Course Sections](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.010.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Resources
+#### Instructors can add resources in the form of texts, images, PDFs, audio, or videos
+![Add Resources](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.011.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Reorder Sections
+#### Instructors can create multiple sections and drag to change the order
+![Reorder Sections](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.012.png)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Dashboard
+### Dashboard to check total revenue for each course
+![Revenue Dashboard](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.013.png)
