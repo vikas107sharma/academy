@@ -1,6 +1,22 @@
-## [Academy Site](https://academy-sable.vercel.app/)
+### [Academy Site](https://academy-sable.vercel.app/)
 
-### Table of Contents
+#### Technologies Used:
+- **Next.js**: Frontend framework
+- **Stripe**: Payment processing
+- **Mux**: Video content management
+- **Prisma**: Database ORM
+- **Aiven**: Managed cloud services
+- **Clerk**: Authentication
+- **TypeScript**: Static type checking
+- **SQL**: Database querying
+
+#### Features:
+- Users can buy and study courses or become instructors, with a rich text editor for content creation.
+- Instructors can create and manage courses, upload multimedia content, and control visibility.
+- Integrated Stripe for purchases and Mux for video content. Prisma and Aiven manage the database; Clerk handles authentication.
+- Performance tracking includes revenue; users can filter courses by category and organize sections with drag-and-drop.
+
+#### Table of Contents
 - [Home Page](#home-page)
 - [Course Page](#course-page)
 - [Payment Gateway using Stripe](#payment-gateway-using-stripe)
