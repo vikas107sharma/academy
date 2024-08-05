@@ -23,6 +23,7 @@
 ## Payment Gateway using Stripe
 ### Use card number: 4000003560000008
 ![Payment Gateway](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.004.png)
+![Payment Details](https://github.com/vikas107sharma/Academy-resource-MD/raw/main/Aspose.Words.23246edb-66aa-45b1-ac75-684b0ce494a7.005.png)
 
 ## After Purchase
 ### The course is accessible after purchase
